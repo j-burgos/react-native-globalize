@@ -16,61 +16,11 @@ const path = require('path');
 const Cldr = require('cldrjs');
 
 const locales = [
-  'am',           // Amharic
-  'ar',           // Arabic
-  'bg',           // Bulgarian
-  'bn',           // Bengali
-  'ca',           // Catalan
-  'cs',           // Czech
-  'da',           // Danish
-  'de',           // German
-  'el',           // Greek
   'en',           // English
   'en-GB',        // English (Great Britain)
   'en-US-POSIX',  // English (United States)
   'es',           // Spanish
   'es-419',       // Spanish (Latin America & Caribbean)
-  'et',           // Estonian
-  'fa',           // Persian
-  'fi',           // Finnish
-  'fil',          // Filipino
-  'fr',           // French
-  'gu',           // Gujarati
-  'he',           // Hebrew
-  'hi',           // Hindi
-  'hr',           // Croatian
-  'hu',           // Hungarian
-  'id',           // Indonesian
-  'it',           // Italian
-  'ja',           // Japanese
-  'kn',           // Kannada
-  'ko',           // Korean
-  'lt',           // Lithuanian
-  'lv',           // Latvian
-  'ml',           // Malayalam
-  'mr',           // Marathi
-  'ms',           // Malay
-  'nb',           // Norwegian
-  'nl',           // Dutch
-  'pl',           // Polish
-  'pt',           // Portuguese
-  'pt-PT',        // Portuguese (Portugal)
-  'ro',           // Romanian
-  'ru',           // Russian
-  'sk',           // Slovak
-  'sl',           // Slovenian
-  'sr',           // Serbian
-  'sv',           // Swedish
-  'sw',           // Swahili
-  'ta',           // Tamil
-  'te',           // Telugu
-  'th',           // Thai
-  'tr',           // Turkish
-  'uk',           // Ukrainian
-  'vi',           // Vietnamese
-  'zh',           // Chinese
-  'zh-Hans',      // Chinese (Simplified)
-  'zh-Hant',      // Chinese (Traditional)
 ];
 
 const currencies = [
