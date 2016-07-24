@@ -18767,7 +18767,8 @@
 								"yMMMMd": "d 'de' MMMM 'de' y",
 								"yMMMMEd": "EEE, d 'de' MMMM 'de' y",
 								"yQQQ": "QQQ 'de' y",
-								"yQQQQ": "QQQQ 'de' y"
+								"yQQQQ": "QQQQ 'de' y",
+								"EdM": "EEE d 'de' MMMM"
 							},
 							"appendItems": {
 								"Day": "{0} ({2}: {1})",
